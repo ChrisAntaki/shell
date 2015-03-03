@@ -1,4 +1,4 @@
-COPY_SH_DATA_PATH=$COPY_SH_DIR/scripts/copy.sh.txt
+COPY_SH_DATA_PATH=$DIR/scripts/copy.sh.txt
 
 function copy() {
     echo $1 > $COPY_SH_DATA_PATH
